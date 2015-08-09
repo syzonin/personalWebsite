@@ -1,15 +1,21 @@
 doctype
 html
   head
-    title #{title} - My Site
+    title #{title}
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css')
   body
     header
-      h1 Something Clever.
+      h1 Say Something Clever.
     .container
+      .navbar
+        block navigation
       .main-content
         block content
       .sidebar
         block sidebar
     footer
-      p Powered by node with Express, Jade and Stylus
+      .iconbar
+        block footer
+        

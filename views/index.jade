@@ -1,4 +1,17 @@
 extend layout
+block navigation
+  nav
+    ul
+      a(href="#")
+        li About
+      a(href="#")
+        li Photos
+      a(href="#")
+        li Projects
+      a(href="#")
+        li Opinions
+      a(href="#")
+        li Work
 block content
   p
     | Apples and oranges
@@ -8,3 +21,17 @@ block sidebar
     h1 Widget
     p
       | Skeleton
+
+block footer
+  div(class="social")
+    a(href="https://twitter.com/syzonin" target="_blank")
+      i(class="fa fa-lg fa-twitter")
+    a(href="https://instagram.com/syzonin/" target="_blank")
+      i(class="fa fa-lg fa-instagram")
+    a(href="https://www.linkedin.com/pub/si-zhan/37/a20/6a" target="_blank")
+      i(class="fa fa-lg fa-linkedin")
+    a(href="https://github.com/syzonin" target="_blank")
+      i(class="fa fa-lg fa-github")
+    a(href="https://medium.com/@syzonin" target="_blank" )
+      i(class="fa fa-lg fa-medium")
+    div Powered by node with Express, Jade and Stylus
