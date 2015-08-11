@@ -21,4 +21,11 @@ app.get('/', function (req, res) {
   { title : 'Home' }
   )
 })
+
+app.get('/about', function (req, res) {
+  res.render('about',
+  { title : 'About' }
+  )
+})
+
 app.listen(process.env.PORT || 5000)

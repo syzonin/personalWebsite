@@ -99,6 +99,11 @@ td {
 a img {
   border: none;
 }
+img {
+  border: 1px solid #FFCC66;
+  width: 100%;
+  height: 100%;
+}
 /*
  * Store the main color and
  * background color as variables
@@ -108,7 +113,7 @@ body {
   background-color: #fff;
   color: #444;
 }
-header {
+header{
   font-family: 'Quicksand';
   padding: 50px 10px;
   color: #fff;
@@ -121,6 +126,27 @@ header {
   background-color: #fa5b4d;
   border-bottom: 1px solid #df1806;
   text-shadow: 0px -1px 0px #df1806;
+}
+header h1 a {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+header h1 a:hover {
+    color: #FFCC66;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
 }
 .container {
   max-width: 500px;
@@ -145,7 +171,7 @@ nav li {
   padding: 10px;
 }
 nav li:hover {
-    color: #df1806;
+    color: #FFCC66;
     text-decoration: none;
     transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -163,7 +189,7 @@ nav a {
   padding-left: 5px;
   padding-right: 5px;
   float: left;
-  max-width: 300px;
+  max-width: 500px;
 }
 .main-content p {
   margin-bottom: 20px;
@@ -188,7 +214,7 @@ p {
     -ms-transition: all ease 0.3s;
 }
 .social i:hover {
-    color: #df1806;
+    color: #FFCC66;
     text-decoration: none;
     transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
